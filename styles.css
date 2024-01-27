@@ -82,3 +82,8 @@ figure img {
     text-decoration: underline;
     color: var(--Green);
 }
+@media (max-width: 768px) {
+    .main-container {
+        width: 300px;
+    }
+}
