@@ -1,0 +1,84 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--Off-Black);
+}
+.main-container {
+    text-align: center;
+    width: 400px;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Dark-Grey);
+    border-radius: 10px;
+}
+figure {
+    margin: 50px 0 20px 0;
+}
+p {
+    color: var(--Green);
+    margin-top: 1rem;
+    font-size: 14px;
+}
+p:last-child {
+    color: var(--White);
+    font-size: 14px;
+}
+figure h1 {
+    color: var(--White);
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+figure img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+.text-con {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.text {
+    height: 3rem;
+    margin: 15px 30px 15px 30px;
+    padding: 15px 30px;
+    background-color: var(--Grey);
+    border-radius: 10px;
+    color: var(--White);
+    font-size: 14px;
+}
+.text:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    cursor: pointer;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 40px;
+    color: var(--White);
+    font-family: 'Inter', sans-serif;
+}
+.attribution a { 
+    color: var(--White);
+    text-decoration: none;
+}
+.attribution a:hover {
+    text-decoration: underline;
+    color: var(--Green);
+}
